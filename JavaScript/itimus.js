@@ -32,7 +32,7 @@
 		var index = 0;
 		let myVar = setInterval(imgSlider, 1800);
 		function imgSlider() {
-			var imgList = ["1.jpg","2.jpg","3.jpg"];
+			var imgList = ["images/1.jpg","images/2.jpg","images/3.jpg"];
 		
 			switch(index){
 				case 0 :
