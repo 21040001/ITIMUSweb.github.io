@@ -75,3 +75,16 @@
 		function rangAlmashtirFonk3(x) {
 			x.classList.remove("yazi-color-black");
 		}
+
+
+let Gadget = setInterval(gadget, 100);
+	function gadget(){
+		var userAgent = window.navigator.userAgent;
+		if (/Mobi|Android/i.test(userAgent)) {
+			document.getElementById("oxirgiDiv").classList.add("oxirgi_div2");
+		    
+		} else {
+			document.getElementById("oxirgiDiv").classList.remove("oxirgi_div2");
+			
+		}
+	}
